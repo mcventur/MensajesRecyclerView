@@ -15,6 +15,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-        android:scrollbars="vertical"/>
+        android:scrollbars="vertical"
+        tools:listitem="@layout/mensaje_layout"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
